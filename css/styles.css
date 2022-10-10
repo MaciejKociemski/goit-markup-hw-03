@@ -1,0 +1,214 @@
+:root{
+    --main-background-color: #ffffff;
+    --section-background-color: #212121;
+    --main-link-color:#2196f3;
+    --blue:#2196f3;
+    --black: #212121;
+    --white:#ffffff;
+    --grey:#757575;
+    --buttongrey: #f5f4fa;
+    --lightgrey: #e5e5e5;
+    
+}
+
+
+body {
+    font-family:'Roboto','Raleway',sans-serif;
+    background-color: var(--main-bacground-color);
+    color: var(--black);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--black);
+    text-decoration: none;   
+}
+
+.logo:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--blue)
+}
+
+.blue{
+    color: #2196F3;
+}
+
+.blueaccent {
+    color: var(--blue);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-agencja{
+    color: var(--blue);
+    text-decoration-line: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link-portfolio{color: var(--black);
+    text-decoration-line: none;
+    font-size: 14px;
+font-weight: 500;}
+
+.link-kontakt {
+    color: var(--black);
+    text-decoration-line: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link-agencja:hover,
+.link-portfolio:hover,
+.link-kontakt:hover {
+    /* color: var(--blue); */
+    text-decoration-line: underline; text-decoration-color: var(--blue);
+}
+.footer-menu{
+    background-color:var(--black);
+    color:var(--white);}
+
+.link-mail:hover,.link-phone:hover{
+    color:var(--blue);}
+
+.link-mail-header {color: var(--grey);text-decoration: none;font-size: 14px;font-weight: 500;}
+.link-phone-header {color:var(--grey);font-size: 14px;
+    font-weight: 500;
+text-decoration-line: none;}
+
+.link-mail-header:hover{color: var(--blue)}
+.link-phone-header:hover{color: var(--blue)}
+.loremipsum-header{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.55;
+}
+
+.loremipsum-text {
+    color: var(--grey);
+        font-size: 14px;
+        font-weight: 400;
+        line-height:1.55;
+    }
+
+.buttons{
+   display: flex;cursor: pointer; 
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.88;
+    color: var(--black);
+    background-color: var(--buttongrey);
+    box-shadow: 0px 0px 4px rgba(6, 5, 5, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.main-button
+{background-color: #2196F3;
+    color:white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.88;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    }
+    
+.button:hover,
+.main-button:hover{
+    background-color: #2196F3;
+    color:white;
+}
+
+.worker-occupation{color: #757575;}
+
+.h2-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    font-style: 'Roboto';
+    color: #212121;
+}
+
+/* 
+.link-mail {
+    color:#ffffff;
+    text-decoration: none;
+} */
+
+.link-phone{
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+.link-mail,.link-phone{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--white);
+    opacity: 60%;
+}
+
+.address{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*sekcja 1 czarne tlo naglowka i efektywne rozwiaznaia .... */
+/* .naglowek{background-color:#2F303A;} */
+
+
+.naglowek-tytul{
+    background-color: var(--section-background-color);
+    color:var(--white); 
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 6px;
+    padding:15%;
+    vertical-align: center;
+}
+
+   .figure-portfolio {
+    background-color:var(--white);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 1px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
+        width: 370px;
+    }
+    .our-team-people {
+            background-color: var(--white);
+            border-radius: 0px 4px 4px 0px;
+            box-shadow: 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee;
+            width: 270px;
+        padding: 14px;}
+
+        .portfolio-images {
+        background-color: var(--white);
+            border-radius: 0px 4px 4px 0px;
+            box-shadow: 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee, 0px 2px 1px 1px #eeeeee;
+            width: 370px;
+            padding: 0px;
+        }
+
+        .footer-portfolio{text-decoration: underline;}
+        /* .portfolio-images-lista{display: center;
+             */
+        .footer-white-logo{color: var(--white);font-family: 'Raleway';
+            font-size: 26px;}
