@@ -10,7 +10,7 @@
     --lightgrey: #e5e5e5;
     
 }
-
+*,*::before,::after{}
 
 body {
     font-family:'Roboto','Raleway',sans-serif;
@@ -68,6 +68,7 @@ font-weight: 500;}
     /* color: var(--blue); */
     text-decoration-line: underline; text-decoration-color: var(--blue);
 }
+
 .footer-menu{
     background-color:var(--black);
     color:var(--white);}
