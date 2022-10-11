@@ -26,8 +26,8 @@ body {
     text-decoration: none;   
 }
 
-.logo:hover{
-    text-decoration: underline;
+.logo:hover, .logo:focus {
+    
     text-decoration-color: var(--blue)
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .link-agencja{
-    color: var(--blue);
+    color: var(--black);
     text-decoration-line: none;
     font-size: 14px;
     font-weight: 500;
@@ -62,39 +62,58 @@ font-weight: 500;}
     font-weight: 500;
 }
 
-.link-agencja:hover,
-.link-portfolio:hover,
-.link-kontakt:hover {
-    /* color: var(--blue); */
-    text-decoration-line: underline; text-decoration-color: var(--blue);
+.link-agencja:hover,.link-agencja:focus,
+.link-portfolio:hover,.link-portfolio:focus,
+.link-kontakt:hover, .link-kontakt:focus {
+ color: var(--blue);
+ text-decoration-color: var(--blue);
 }
 
 .footer-menu{
     background-color:var(--black);
     color:var(--white);}
 
-.link-mail:hover,.link-phone:hover{
-    color:var(--blue);}
+.link-mail:hover,
+.link-mail:focus,
+.link-phone:hover,
+.link-phone:focus {
+    color: var(--blue);
+}
 
 .link-mail-header {color: var(--grey);text-decoration: none;font-size: 14px;font-weight: 500;}
 .link-phone-header {color:var(--grey);font-size: 14px;
     font-weight: 500;
 text-decoration-line: none;}
 
-.link-mail-header:hover{color: var(--blue)}
-.link-phone-header:hover{color: var(--blue)}
-.loremipsum-header{
+.link-mail-header:hover,
+.link-mail-header:focus {
+    color: var(--blue)
+}
+
+.link-phone-header:hover,
+.link-phone-header:focus {
+    color: var(--blue)
+}
+
+.loremipsum-header {
     color: var(--black);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.55;
 }
 
+.loremipsum-header{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.55;
+}
 .loremipsum-text {
     color: var(--grey);
         font-size: 14px;
         font-weight: 400;
         line-height:1.55;
+
     }
 
 .buttons{
@@ -114,8 +133,11 @@ text-decoration-line: none;}
     cursor: pointer;
 }
 .main-button
-{background-color: #2196F3;
+{background-color: var(--blue);
+    display: inline-block;
     color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -126,12 +148,13 @@ text-decoration-line: none;}
     }
     
 .button:hover,
-.main-button:hover{
-    background-color: #2196F3;
-    color:white;
+.button:focus,
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--blue);
+    color: var(--white);
 }
-
-.worker-occupation{color: #757575;}
+.worker-occupation{color: var(--grey);}
 
 .h2-title {
     font-size: 36px;
@@ -207,9 +230,22 @@ ul {
             width: 370px;
             padding: 0px;
         }
+        .portfolio-images-area{
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--black);
+        }
+
+        .portfolio-images-sign{
+            font-size: 16px;
+            font-weight:400;
+            color: var(--grey);}
 
         .footer-portfolio{text-decoration: underline;}
         /* .portfolio-images-lista{display: center;
              */
         .footer-white-logo{color: var(--white);font-family: 'Raleway';
             font-size: 26px;}
+            /* .container{background-color: red;} */
+
+            .container {background-color: var(--black);}
