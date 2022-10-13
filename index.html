@@ -12,43 +12,45 @@
     <title>Zadanie domowe GOIT nr3</title>
 </head>
 <body>
-    <header class="header-menu">
-        <div class="header-container">
+    <header class="header-container">
+        <div class="wrapper-container">
 <!--logo-->
             <a href="./index.html" class="logo link"><span class="blueaccent">Web</span>Studio</a>
         
-<!--linki nawigacyjne do podstron-->
-            <nav class="navigation-links">
-                <ul>
+<!--navigation links-->
+            <nav class="navigation-links container-navigation-link">
+                <ul class="container-navigation-links">
                     <li><a href="./index.html" class="link-agencja">Agencja</a></li>
                     <li><a href="./portfolio.html" class="link-portfolio">Portfolio</a></li>
                     <li><a href="#" class="link-kontakt">Kontakt</a></li>
                 </ul>
             </nav>
-<!--łącza do email i telefonu-->
-            <ul>
+<!--contact phone and email-->
+            <ul class="container-contact">
                 <li><a href="mailto:info@devstudio.com" class="link-mail-header">info@devstudio.com</a></li>
                 <li><a href="tel:+48111111111" class="link-phone-header">+48 111 111 111</a></li>
             </ul>
         </div>
     </header>
-    
-    <main>
-<!--pierwsza sekcja naglowek strony i guzik-->
+    <!--end header-->
+    <!--start main-->
+    <main class="main">
 
-    <section>
+<!--first section header and button-->
+ <section class="container-tittle">
             <h1 class="naglowek-tytul container">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-<!--przycisk zamow usluge pod naglowkiem-->
+
             <button type="button" class="main-button order">Zamów usługę</button></section>
-       <section> 
-        <ul class="loremipsum-lista">
-<!--druga sekcja lorem ipsum - tekst z naglowkiem artykulow-->
+       <section class="container-loremipsum"> 
+        <ul class="loremipsum-lista-container">
+
+<!--second section about the Studio-->
             <li>
                 <div class="loremipsum">
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, debitis repellendus
-                        doloremque soluta quidem reprehenderit pariatur beatae maiores corrupti?
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
                     </p>
                 </div>
             </li>
@@ -56,64 +58,61 @@
                <div class="loremipsum">
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est id voluptatum ratione fugit
-                        praesentium excepturi pariatur unde. Recusandae, vero! </p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada</div>
+            </li>
+            <li>
+                <div class="loremipsum">
+                    <h3 class="loremipsum-header">LOREM IPSUM</h3>
+                    <p class="loremipsum-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada </p>
                 </div>
             </li>
             <li>
                 <div class="loremipsum">
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias quod harum aperiam sed esse
-                        officiis dolores vel provident.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="loremipsum">
-                    <h3 class="loremipsum-header">LOREM IPSUM</h3>
-                    <p class="loremipsum-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsum voluptatibus ipsam in
-                        nam sunt expedita quia nesciunt. Laborum!
-                    </p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada  </p>
                 </div>
             </li>
         </ul>
         </section>
-<!--trzecia sekcja  -->
-        <section>
-            <h2 class="h2-title">Czym się zajmujemy</h2>
+<!--end of the second section -lorem ipsum text- -->
 
-<!-- dodanie 3 zdjec w liscie w wymiarach z Figmy-->
-            <ul class="photos">
+<!--3rd section -what we are doing- -->
+        <section class="container-photos">
+            <h2 class="h2-title">Czym się zajmujemy</h2>
+             <ul class="photos container-photos-list">
                 <li>
-                    
+                   <a href="#"> 
                     <img class="screen" src="images/close-up-image-programer-working-his-desk-office_1098-18707.jpg" width="370"
-                        height="294" alt="programer working his desk office" />
+                        height="294" alt="programer working his desk office" /></a>
                 </li>
-                <li>
+                <li><a href="#">
                     <img class="screen"src="images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
-                        width="370" height="294" alt="creators is working interface mobile phones" />
+                        width="370" height="294" alt="creators is working interface mobile phones" /></a>
                 </li>
-                <li>
+                <li><a href="#">
                     <img class="screen" src="images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
-                        width="370" height="294" alt="web design with working colour selection graphic tablet" />
+                        width="370" height="294" alt="web design with working colour selection graphic tablet" /></a>
                 </li>
             </ul>
         </section>
-<!--czwrata sekcja  - nasz zespol-->
+<!--4th section- - our team- -->
         <section class="our-team">
             <h2 class="h2-title">Nasz Zespół</h2>
     
 
-            <ul>
-                <li>
+            <ul class="container-our-team-list">
+                <li class="our-team-member">
                 
                         <figure class="our-team-people">
                             <img src="images/4853.jpg" width="270" height="260"
                                 alt="young man with dark beard and glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong> </p><br />
+                                <p class="worker-name"><strong>John Doe</strong> </p>
                                 <p class="worker-occupation">Product Designer</p>
                             </figcaption>
                         </figure>
@@ -125,7 +124,7 @@
                         <figure class="our-team-people">
                             <img src="images/5844.jpg" width="270" height="260" alt="smiling blonde with glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p> <br /><p class="worker-occupation">
+                                <p class="worker-name"><strong>John Doe</strong></p> <p class="worker-occupation">
                                 Frontend Developer</p>
                             </figcaption>
                         </figure>
@@ -137,7 +136,7 @@
                         <figure class="our-team-people">
                             <img src="images/16166.jpg" width="270" height="260" alt="young man in a bright shirt" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p> <br />
+                                <p class="worker-name"><strong>John Doe</strong></p> 
                                <p class="worker-occupation"> Marketing</p>
                             </figcaption>
                         </figure>
@@ -148,7 +147,7 @@
                     
                         <figure class="our-team-people">
                             <img src="images/2968.jpg" width="270" height="260" alt="young man i dark t-shirt" />
-                            <figcaption><p class="worker-name"><strong>John Doe</strong></p> <br />
+                            <figcaption><p class="worker-name"><strong>John Doe</strong></p> 
                                 <p class="worker-occupation">UI Designer</p></figcaption>
                         </figure>
                     
