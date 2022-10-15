@@ -1,16 +1,14 @@
-:root{
+:root {
     --main-background-color: #ffffff;
     --section-background-color: #212121;
-    --main-link-color:#2196f3;
-    --blue:#2196f3;
+    --main-link-color: #2196f3;
+    --blue: #2196f3;
     --black: #212121;
-    --white:#ffffff;
-    --grey:#757575;
+    --white: #ffffff;
+    --grey: #757575;
     --buttongrey: #f5f4fa;
     --lightgrey: #e5e5e5;
-    --lineheadercolour:#ececec;
-
-    
+    --lineheadercolour: #ececec;
 }
 
 body {
@@ -21,7 +19,7 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family:'Raleway';
     font-size: 26px;
     font-weight: 700;
     color: var(--black);
@@ -52,11 +50,12 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
-
-.link-portfolio{color: var(--black);
+.link-portfolio {
+    color: var(--black);
     text-decoration-line: none;
     font-size: 14px;
-font-weight: 500;}
+    font-weight: 500;
+}
 
 .link-kontakt {
     color: var(--black);
@@ -80,6 +79,7 @@ font-weight: 500;}
     color:var(--white);
 padding-top: 60px;
 padding-bottom: 60px;
+
 }
 
 .link-mail:hover,
@@ -94,10 +94,15 @@ padding-bottom: 60px;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-}
-.link-phone-header {color:var(--grey);font-size: 14px;
+    
+    }
+
+.link-phone-header {
+    color: var(--grey);
+    font-size: 14px;
     font-weight: 500;
-text-decoration-line: none;}
+    text-decoration-line: none;
+}
 
 .link-mail-header:hover,
 .link-mail-header:focus {
@@ -108,6 +113,7 @@ text-decoration-line: none;}
 .link-phone-header:focus {
     color: var(--blue)
 }
+
 .header-container-portfolio {
 
     background-color: ver(--white);
@@ -137,11 +143,13 @@ text-decoration-line: none;}
         font-size: 14px;
         font-weight: 400;
         line-height:1.71;
+        cursor: pointer;
 
     }
 
 .buttons{
-   display: flex;cursor: pointer; 
+   display: flex;
+   cursor: pointer; 
 }
 
 .button {
@@ -259,6 +267,9 @@ ul {
 .naglowek-tytul{
     /* background-color: var(--section-background-color);
     */
+    display: flex;
+    flex-direction: column;
+    width: 696px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -270,16 +281,18 @@ ul {
 
 }
 
-   .figure-portfolio {
-    background-color:var(--white);
-        border-radius: 0px 0px 4px 4px;
-        box-shadow: 1px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
-        width: 370px;
-    }
+ .figure-portfolio {
+     background-color: var(--white);
+     border-radius: 0px 0px 4px 4px;
+     box-shadow: 1px 1px 0px 0px #eeeeee, 0px 1px 1px #eeeeee, 0px 2px 1px #eeeeee;
+     width: 370px;
+ }
+
 .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color:#f5f4fa;
+    
 }
     .our-team-member{
         background-color: ver(--white);
@@ -294,32 +307,53 @@ ul {
              display: block;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
                 0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
+            cursor:pointer;
          }
 
          .portfolio-section-project{
-            max-width: 1200px;
+            
             display: flex;
-            padding-top: 94px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding-inline-start: 0px;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            gap: 30px;
+            justify-content: space-between;
             padding-bottom: 94px;
+            width: auto;
+          
          }
+         
 
 .project-description{
+    
     max-width: 370px;
     background-color: ver(--white);
     border: 1px solid #eeeeee;
 }
 
-        .portfolio-images {
-        background-color: var(--white);
-            /* border-radius: 0px 4px 4px 0px;
-            box-shadow: 0px 2px 1px 1px #eeeeee, 0px 2px 1px -1px #eeeeee, 0px 2px 1px 1px #eeeeee; */
-            /* width: 370px;
-            padding: 0px; */
-            margin: 0 0;
-            display: block;
-        }
-        .portfolio-images img{display: block;}
+  .portfolio-images {
+      background-color: var(--white);
+      margin: 0 0;
+      display: block;
+  }
 
+.container-images-portfolio-lista{
+    
+    /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-inline-start: 0px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        border-color: var(--main-color);
+        gap: 30px; */
+}
+
+.portfolio-images img {
+    display: flex;
+}
 
         .portfolio-images-area{
             font-weight: 700;
@@ -341,14 +375,18 @@ ul {
             padding-bottom: 20px;
             color: var(--grey);}
 
-        .footer-portfolio{text-decoration: underline;}
-        /* .portfolio-images-lista{display: center;
-             */
-        .footer-white-logo{color: var(--white);font-family: 'Raleway';
-            font-size: 26px;}
+ .footer-portfolio {
+     text-decoration: underline;
+ }
+        
+   .footer-white-logo {
+       color: var(--white);
+       font-family: 'Raleway';
+       font-size: 26px;
+   }
           
 
-/* ponizej kontener na probe do weryfikacji obszaru */
+
 
 
 .container-photos-list {
@@ -374,20 +412,24 @@ ul {
         gap: 30px;
 }
 
- 
- .container-contact, .container-navigation-links{
-     display: flex;
-     justify-content: center;gap: 46px;
-    
- }
+ .container-contact,
+ .container-navigation-links {
+     display:inline-flex;
+     justify-content: center;
+     gap: 46px;
+   
 
+ }
+ /* .container-contact{text-align: right;} */
+
+ 
 .wrapper-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0;
 
 }
 
@@ -416,18 +458,15 @@ ul {
     gap: 8px;display: flex;justify-content: center;padding: 20px;
 }
 
-.container-images-portfolio-lista {
-    /* flex-basis: auto; */
-    /* display:flex; */
-    /* flex-wrap: wrap; */
-    gap: 30px;
-    padding: 0;
-    
-    
-}
-.main {background-color: ver(--white);}
 
-.navigation-links{display: flex;
-flex-grow: 2px;
-padding-left: 93px;
-gap: 46px;}
+.main {
+    background-color: ver(--white);
+}
+
+
+.navigation-links {
+    display: flex;
+    flex-grow: 2px;
+    padding-left: 93px;
+    gap: 46px;
+}
