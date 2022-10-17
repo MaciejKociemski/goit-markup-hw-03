@@ -363,6 +363,7 @@ ul {
 
 .portfolio-images img {
     display: flex;
+    
 }
 
 .portfolio-images-area {
@@ -421,6 +422,7 @@ ul {
 .container-our-team-list {
 
     display: flex;
+    gap: 30px;
   
     
 }
