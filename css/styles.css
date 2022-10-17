@@ -407,7 +407,7 @@ ul {
     background-color: var(--white);
     text-align: center; */
     display: flex;
-    /* gap: 30px; */
+    gap: 30px;
 }
 
 
@@ -423,6 +423,8 @@ ul {
 
     display: flex;
     gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
   
     
 }
