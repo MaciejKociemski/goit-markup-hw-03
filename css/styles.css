@@ -339,6 +339,7 @@ ul {
     max-width: 370px;
     background-color: var(--white);
     border: 1px solid #eeeeee;
+    
 }
 
 .portfolio-images {
@@ -357,6 +358,7 @@ ul {
         margin-block-end: 0em;
         border-color: var(--main-color);
         gap: 30px;
+        
 }
 
 .portfolio-images img {
@@ -404,7 +406,7 @@ ul {
     background-color: var(--white);
     text-align: center; */
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 
@@ -419,7 +421,8 @@ ul {
 .container-our-team-list {
 
     display: flex;
-    gap: 30px;
+  
+    
 }
 
 .container-contact,
