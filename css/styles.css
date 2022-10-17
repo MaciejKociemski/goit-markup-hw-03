@@ -4,7 +4,7 @@
     --main-link-color: #2196f3;
     --blue: #2196f3;
     --black: #212121;
-    --white: #ffffff;
+    --white: #fff;
     --grey: #757575;
     --buttongrey: #f5f4fa;
     --lightgrey: #e5e5e5;
@@ -77,7 +77,6 @@ body {
 }
 
 .footer-menu {
-    max-width: auto;
     margin: auto;
     padding: 0 15px;
     background-color: var(--black);
@@ -121,7 +120,7 @@ body {
 
 .header-container-portfolio {
 
-    background-color: ver(--white);
+    background-color: var(--white);
     border-bottom: 1px solid #ececec;
 
 }
@@ -306,7 +305,7 @@ ul {
 }
 
 .our-team-member {
-    background-color: ver(--white);
+    background-color: var(--white);
 
 
 }
@@ -342,7 +341,7 @@ ul {
 .project-description {
 
     max-width: 370px;
-    background-color: ver(--white);
+    background-color: var(--white);
     border: 1px solid #eeeeee;
 }
 
@@ -462,7 +461,6 @@ ul {
 .loremipsum-lista-container {
     display: flex;
     gap: 10px;
-    padding: auto;
 
 }
 
@@ -481,13 +479,12 @@ ul {
 
 
 .main {
-    background-color: ver(--white);
+    background-color: var(--white);
 }
 
 
 .navigation-links {
     display: flex;
-    flex-grow: 2px;
     padding-left: 93px;
     gap: 46px;
 }
