@@ -329,7 +329,7 @@ ul {
     gap: 30px;
     justify-content: space-between;
     padding-bottom: 94px;
-    width: auto;
+    max-width: auto;
 
 }
 
@@ -349,14 +349,14 @@ ul {
 
 .container-images-portfolio-lista {
 
-    /* display: flex;
+    display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         padding-inline-start: 0px;
         margin-block-start: 0em;
         margin-block-end: 0em;
         border-color: var(--main-color);
-        gap: 30px; */
+        gap: 30px;
 }
 
 .portfolio-images img {
