@@ -9,11 +9,12 @@
     --buttongrey: #f5f4fa;
     --lightgrey: #e5e5e5;
     --lineheadercolour: #ececec;
+    
 }
 
 body {
 
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--main-bacground-color);
     color: var(--black);
 }
@@ -23,8 +24,9 @@ body {
     font-size: 26px;
     font-weight: 700;
     color: var(--black);
-    /* text-decoration: none; */
+    text-decoration: none;
     margin-left: 60px;
+    /* line-height: 1.19; */
 }
 
 .logo:hover,
@@ -118,14 +120,15 @@ body {
     color: var(--blue)
 }
 
-.header-container-portfolio {
+.header-portfolio {
+    
 
     background-color: var(--white);
     border-bottom: 1px solid #ececec;
 
 }
 
-.header-container {
+.header {
     border: 1px
 }
 
@@ -213,22 +216,7 @@ body {
     /* margin-bottom: 40px; */
 }
 
-.container-photos {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: auto;
 
-}
-
-.h2-title {
-    padding-bottom: 50px;
-    font-weight: 700;
-    line-height: 1.16;
-    font-size: 36px;
-    color: var(--black);
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 .link-phone {
     color: var(--white);
@@ -252,15 +240,16 @@ body {
     font-style: normal;
     color: var(--white);
     margin-left: 60px;
+    
 }
 
 ul {
     list-style-type: none;
 }
 
-/*sekcja 1 czarne tlo naglowka i efektywne rozwiaznaia .... */
+/*section 1, black header bacground  */
 
-.container-tittle {
+.tittle {
     background-color: var(--black);
     color: var(--white);
     display: flex;
@@ -273,9 +262,7 @@ ul {
 
 
 
-.naglowek-tytul {
-    /* background-color: var(--section-background-color);
-    */
+.main-tittle {
     display: flex;
     flex-direction: column;
     width: 696px;
@@ -297,14 +284,32 @@ ul {
     width: 370px;
 }
 
+.container {
+    max-width: 1600px;
+    /* margin-left: 215px;
+        margin-right: 215px; */
+    /* padding: 0 15px; */
+    /* margin: auto; */
+    box-sizing:content-box;
+    
+}
+
 .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #f5f4fa;
-
 }
 
-
+.h2-title {
+    padding-bottom: 50px;
+    font-weight: 700;
+    line-height: 1.16;
+    font-size: 36px;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
 
 .our-team-people {
     background-color: var(--white);
@@ -398,25 +403,24 @@ ul {
 }
 
 
+.photos {
+
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;}
+    /* margin-left: 215px;
+    margin-right: 215px;
+} */
 
 
 
-.container-photos-list {
-    /* width: 1600;
-    height: 648;
-    background-color: var(--white);
-    text-align: center; */
+.photos-list {
     display: flex;
-    gap: 30px;
-}
-
-
-.container-photos-list {
-
     padding: 25px;
-    display: flex;
     text-align: center;
     line-height: 75px;
+    gap: 30px;
 }
 
 .container-our-team-list {
@@ -429,19 +433,16 @@ ul {
     
 }
 
-.container-contact,
-.container-navigation-links {
-    display: inline-flex;
+.contact,
+.links {
+    display: flex;
     justify-content: center;
     gap: 46px;
 
-
 }
 
-/* .container-contact{text-align: right;} */
 
-
-.wrapper-container {
+.wrapper {
     box-sizing: border-box;
     display: flex;
     max-width: 1200px;
@@ -467,11 +468,6 @@ ul {
 
 }
 
-.container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: auto;
-}
 
 .container-buttons {
     gap: 8px;
@@ -485,9 +481,3 @@ ul {
     background-color: var(--white);
 }
 
-
-.navigation-links {
-    display: flex;
-    padding-left: 93px;
-    gap: 46px;
-}
