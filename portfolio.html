@@ -6,52 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 <title>Zadanie domowe GOIT nr 3</title>
 </head>
 <body>
     <!--header -->
 <header class="header-portfolio">
-    <div class="wrapper">
-        <!--logo-->
-        <a href="./index.html" class="logo link"><span class="blueaccent">Web</span>Studio</a>
+<div class="wrapper container">
+    <!--logo-->
+    <a href="./index.html" class="logo link"><span class="blueaccent">Web</span>Studio</a>
 
-        <!--navigation links-->
-        <nav class="navigation-links">
-            <ul class="links">
-                <li><a href="./index.html" class="link-agencja">Agencja</a></li>
-                <li><a href="./portfolio.html" class="link-portfolio">Portfolio</a></li>
-                <li><a href="#" class="link-kontakt">Kontakty</a></li>
-            </ul>
-        </nav>
-<!--contact phone and email-->
-        <ul class="contact">
-            <li><a href="mailto:info@devstudio.com" class="link-mail-header">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111" class="link-phone-header">+48 111 111 111</a></li>
+    <!--navigation links-->
+    <nav class="navigation-links">
+        <ul class="links">
+            <li><a href="./index.html" class="link-agencja">Agencja</a></li>
+            <li><a href="./portfolio.html" class="link-portfolio">Portfolio</a></li>
+            <li><a href="#" class="link-kontakt">Kontakt</a></li>
         </ul>
-        </div>
+    </nav>
+    <!--contact phone and email-->
+    <ul class="contact">
+        <li><a href="mailto:info@devstudio.com" class="link-mail-header">info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111" class="link-phone-header">+48 111 111 111</a></li>
+    </ul>
+</div>
    
 </header>
+
 <!-- start <main> -->
 
-<main class="main">
-
+<main>
+   
 <!--header buttons this site -->
-  <section class="container-section-buttons"> 
-    <ul class="buttons container-buttons">
+  <section> 
+    <div class="container">
+    <ul class="buttons">
     <li><button type="button" class="button">Wszystkie</button></li>
     <li><button type="button" class="button">Strony</button></li>
     <li><button type="button" class="button">Aplikacje</button></li>
     <li><button type="button" class="button">Dizajn</button></li>
     <li><button type="button" class="button">Marketing</button></li>
-</ul>
+</ul></div>
 </section>
 
-<!-- sign screen Portfolio , 9=3 row x 3 -->
-   <section class="portfolio-section-project">
 
-    <ul class="container-images-portfolio-lista">
+<!-- sign screen Portfolio , 9=3 row x 3 -->
+   <section class="section_projects">
+   
+    <div class="container">
+
+    <ul class="images-list">
         <li class="project-description">
    
        
@@ -59,8 +64,7 @@
             <img src="./images/portfolio.jpg" width="370" height="294"><figcaption><p class="portfolio-images-area"><strong>Technocrack</strong></p>
                 <p class="portfolio-images-sign">Strona internetowa</figcaption>
         </figure>
-    </li></ul>
-    <ul class="container-images-portfolio-lista">
+    </li>
         <li class="project-description">
 
     <figure class="portfolio-images">
@@ -68,8 +72,8 @@
     </figure>
 
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
+
     <li class="project-description">
 
     <figure class="portfolio-images">
@@ -77,29 +81,25 @@
     </figure>
 
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
+
     <li class="project-description">
 
     <figure class="portfolio-images">
         <img src="./images/portfolio-2.jpg" width="370" height="294"><figcaption><p class="portfolio-images-area"><strong>Projekt Prime</strong></p><p class="portfolio-images-sign">
         Marketing</p></figcaption>
     </figure>
-    
-
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
-    <li class="project-description">
 
+    <li class="project-description">
     <figure class="portfolio-images">
         <img src="./images/portfolio5.jpg" width="370" height="294"><figcaption><p class="portfolio-images-area"><strong>Projekt Boxes</strong></p><p class="portfolio-images-sign">
         Aplikacja</p></figcaption>
     </figure>
 
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
+
     <li class="project-description">
 
     <figure class="portfolio-images">
@@ -107,8 +107,7 @@
     </figure>
 
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
     <li class="project-description">
 
 
@@ -117,16 +116,14 @@
         <img src="./images/portfolio7.jpg"><figcaption><p class="portfolio-images-area"><strong>Magazyn Limited Edition</strong></p><p class="portfolio-images-sign">Dizajn</p></figcaption></figure>
 
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
     <li class="project-description">
 
     <figure class="portfolio-images">
         <img src="./images/portfolio8.jpg" width="370" height="294"><figcaption><p class="portfolio-images-area"><strong>Projekt LAB</strong></p><p class="portfolio-images-sign">Marketing</p></figcaption>
     </figure>
 </li>
-</ul>
-<ul class="container-images-portfolio-lista">
+
     <li class="project-description">
 
     <figure class="portfolio-images">
@@ -135,6 +132,7 @@
    
 </li>
 </ul>
+</div>
 </section>
     </main>
 <!--end of <main>-->
@@ -142,15 +140,16 @@
 <!--footer logo and contact phone , email-->
 
     <footer class="footer-menu">
+        <div class="container">
     
-        <a href="./index.html" class="logo"><span class="blueaccent">Web</span><span
-                class="footer-white-logo">Studio</span></a>
-        <address class="address">m.Warszawa, Aleje Jerozolimskie 21</address>
-        <ul>
-            <li><a href="mailto:info@example.com" class="link-mail">info@example.com</a></li>
-            <li><a href="tel:+48111111111" class="link-phone">+48 111 111 111</a></li>
-        </ul>
-    
+            <a href="./index.html" class="logo"><span class="blueaccent">Web</span><span
+                    class="footer-white-logo">Studio</span></a>
+            <address class="address">m.Warszawa, Aleje Jerozolimskie 21</address>
+            <ul>
+                <li><a href="mailto:info@example.com" class="link-mail">info@example.com</a></li>
+                <li><a href="tel:+48111111111" class="link-phone">+48 111 111 111</a></li>
+            </ul>
+        </div>
     </footer>
     <!--end of footer-->
 </body>

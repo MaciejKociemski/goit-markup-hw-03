@@ -8,13 +8,13 @@
    <link href="css/styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Zadanie domowe GOIT nr3</title>
 </head>
 <body>
     <header class="header">
         
-        <div class="wrapper">
+        <div class="wrapper container">
 <!--logo-->
             <a href="./index.html" class="logo link"><span class="blueaccent">Web</span>Studio</a>
         
@@ -39,51 +39,56 @@
 
 <!--first section header and button-->
  <section class="tittle">
-            <h1 class="main-tittle">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <h1 class="main-tittle container">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
             <button type="button" class="main-button order">Zamów usługę</button></section>
-       <section class="container-loremipsum"> 
-        <ul class="loremipsum-lista-container">
+
+<!--end of 1st section-->
 
 <!--second section about the Studio-->
-            <li>
-                <div class="loremipsum">
+
+<section class="section2"> 
+    <div class="container">
+        <ul class="loremipsum-lista">
+         <li>
+        
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                         arcu sem. Sed non sodales dui. Interdum et malesuada
                     </p>
-                </div>
+            
             </li>
             <li>
-               <div class="loremipsum">
+              
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                        arcu sem. Sed non sodales dui. Interdum et malesuada</div>
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
             </li>
             <li>
-                <div class="loremipsum">
+                
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                         arcu sem. Sed non sodales dui. Interdum et malesuada </p>
-                </div>
+            
             </li>
             <li>
-                <div class="loremipsum">
+                
                     <h3 class="loremipsum-header">LOREM IPSUM</h3>
                     <p class="loremipsum-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                         arcu sem. Sed non sodales dui. Interdum et malesuada  </p>
-                </div>
-            </li>
+                </li>
         </ul>
+        </div>
         </section>
 <!--end of the second section -lorem ipsum text- -->
 
-<!--3rd section -what we are doing- -->
-        <section class="photos">
+<!--3rd section -what we are doing?- photos-->
+        <section class="section3">
+            <div class="container">
             <h2 class="h2-title">Czym się zajmujemy</h2>
              <ul class="photos-list">
                 <li>
@@ -100,6 +105,7 @@
                         width="370" height="294" alt="web design with working colour selection graphic tablet" /></a>
                 </li>
             </ul>
+            </div>
         </section>
 <!--4th section- - our team- -->
         <section class="our-team">
@@ -107,7 +113,7 @@
             <h2 class="h2-title">Nasz Zespół</h2>
     
 
-            <ul class="container-our-team-list">
+            <ul class="our-team-list">
                 <li class="our-team-member">
                 
                         <figure class="our-team-people">
@@ -159,8 +165,10 @@
         </section>
     </main>
 
-<!--stopka z logo i danymi adresowymi -->
+<!--footer logo, address and contacts -->
+
     <footer class="footer-menu">
+        <div class="container">
         
             <a href="./index.html" class="logo"><span class="blueaccent">Web</span><span class="footer-white-logo">Studio</span></a>
             <address class="address">m.Warszawa, Aleje Jerozolimskie 21</address>
@@ -168,7 +176,7 @@
                  <li><a href="mailto:info@example.com" class="link-mail">info@example.com</a></li>
                 <li><a href="tel:+48111111111" class="link-phone">+48 111 111 111</a></li>
             </ul>
-      
+        </div>
     </footer>
 </body>
 
