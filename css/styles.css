@@ -253,11 +253,13 @@ body {
 ul {
     list-style-type: none;
     padding-inline-start: 0;
+   
 }
 
 
 .tittle {
     background-color: var(--black);
+    /* max-width: 1600px; */
     color: var(--white);
     display: flex;
     flex-direction: column;
@@ -303,7 +305,11 @@ ul {
 
 }
 
-.what-we-do{padding:94px 0;}
+.what-we-do {
+    padding: 94px 0;
+}
+
+
 .h2-title {
     /* padding-top: 94px; */
     padding-bottom: 50px;
@@ -333,6 +339,7 @@ ul {
 .portfolio-images {
     background-color: var(--white);
     margin: 0 0;
+    /* border: 1px solid #eeeeee; tu sprawdzic ja dziala */
    
 }
 
@@ -340,18 +347,19 @@ ul {
 
 .images-list {
     display: flex;
-    padding-left: 0;
-    padding-bottom: 94px;
     flex-wrap: wrap;
-    flex-direction: row;
+    padding-bottom: 94px;
     gap: 30px;
+    /* padding-left: 0;
+    flex-direction: row;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1200px;  tu sprawdzic jak dziala */
     
 }
 
 .project-description {
     border: 1px solid #eeeeee;
+  /* width;: calc((100%-60px)/) */
 }
 
 
@@ -387,6 +395,8 @@ ul {
     text-align: center;
     line-height: 75px;
     gap: 30px;
+    /* flex-basis: calc(100%-60px)/3); */
+    /* width: ; */
 }
 
 .our-team-list {
@@ -395,7 +405,7 @@ ul {
     gap: 30px;
 
     text-align: center;
-
+/* width: ; */
 
 }
 
