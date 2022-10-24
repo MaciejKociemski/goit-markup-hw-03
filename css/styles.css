@@ -134,27 +134,28 @@ body {
 
 .loremipsum-header {
     color: var(--black);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.55;
+    
 
 }
 
 .loremipsum-header {
-    color: var(--black);
+    /* color: var(--black); */
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.55;
+    line-height: 1.42;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .loremipsum-text {
-    width: 270px;
-    height: 75px;
+    /* width: 270px;
+    height: 75px; */
+    line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 
     color: var(--grey);
-    font-size: 14px;
     font-weight: 400;
-    line-height: 1.71;
     cursor: pointer;
 
 }
@@ -165,7 +166,7 @@ body {
     cursor: pointer;
     margin-top: 94px;
     gap: 8px;
-
+/* width: calc((100%-20px) / 5); */
     justify-content: center;
     padding: 20px;
 }
@@ -286,6 +287,10 @@ ul {
 
 }
 
+.lorem {
+    width: calc((100%-90px) / 4);
+    
+}
 .figure-portfolio {
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
@@ -296,6 +301,7 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+   
 }
 
 .our-team {
@@ -338,47 +344,49 @@ ul {
 
 .portfolio-images {
     background-color: var(--white);
-    margin: 0 0;
-    /* border: 1px solid #eeeeee; tu sprawdzic ja dziala */
+    margin: 0 0;}
    
-}
+    /* border: 1px solid #eeeeee; tu sprawdzic ja dziala */
 
 
 
 .images-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
-    gap: 30px;
-    /* padding-left: 0;
     flex-direction: row;
-    margin: 0 auto;
-    max-width: 1200px;  tu sprawdzic jak dziala */
+    padding-bottom: 94px;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin: 0px;
+
+    gap: 30px;
+   
     
 }
 
 .project-description {
     border: 1px solid #eeeeee;
-  /* width;: calc((100%-60px)/) */
+    width: calc((100%-60px) / 3);   
 }
 
 
 .portfolio-images-area {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 1.89;
     letter-spacing: 0.06em;
     padding-left: 24px;
     padding-top: 20px;
-    padding-bottom: 4px;
     color: var(--black);
 
 }
 
 .portfolio-images-sign {
+    display: flex;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.88;
+    line-height: 1.89;
+    text-align: left;
     letter-spacing: 0.03em;
     padding-left: 24px;
     padding-bottom: 20px;
@@ -412,7 +420,7 @@ ul {
 .contact,
 .links {
     display: inline-flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 46px;
 
 }
@@ -431,8 +439,12 @@ ul {
 
     margin-top: 94px;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     text-align: justify;
-    justify-content: center;
+    /* justify-content: center; deleted after mentor wish */
 
 }
+
+
+.section-project{display:block;}
+
