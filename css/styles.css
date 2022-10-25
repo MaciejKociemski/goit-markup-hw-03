@@ -355,12 +355,13 @@ ul {
     padding-left: 0px;
     margin: 0px;
     gap: 30px;
+    flex-basis: ((100%-60px) / 3);
    
     
 }
 
 .project-description {
-    flex-basis: calc((100%-60px) / 3);
+    /* flex-basis: calc((100%-60px) / 3); */
     
 }
 .border {
