@@ -361,6 +361,7 @@ ul {
 }
 
 .project-description {
+    flex-basis: calc((100%-60px) / 3);
     border: 1px solid #eeeeee;
 }
 
