@@ -354,7 +354,6 @@ ul {
     justify-content: space-between;
     padding-left: 0px;
     margin: 0px;
-
     gap: 30px;
    
     
@@ -362,9 +361,12 @@ ul {
 
 .project-description {
     flex-basis: calc((100%-60px) / 3);
-    border: 1px solid #eeeeee;
+    
 }
-
+.border {
+    border: 1px solid #eeeeee;
+    margin-top: -5px;
+}
 
 .portfolio-images-area {
     font-weight: 700;
@@ -440,9 +442,9 @@ ul {
     /* justify-content: center; deleted after mentor wish */
 
 }
+/* 
 
-
-.section-project{display:block;}
+.section-project{display:block;} */
 
 .screen {
     max-width: 100%;
