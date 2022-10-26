@@ -260,7 +260,8 @@ ul {
 
 .tittle {
     background-color: var(--black);
-    /* max-width: 1600px; */
+    max-width: 1600px;
+    margin: 0 auto;
     color: var(--white);
     display: flex;
     flex-direction: column;
